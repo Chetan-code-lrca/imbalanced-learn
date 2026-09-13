@@ -77,3 +77,8 @@ with varying levels of class balancing by adjusting their weights.
    :target: ./auto_examples/over-sampling/plot_comparison_over_sampling.html
    :scale: 60
    :align: center
+
+As expected, the decision function of the Logistic Regression classifier varies significantly
+depending on how imbalanced the data is. With a greater imbalance ratio, the decision function
+tends to favour the class with the larger number of samples, usually referred to as the
+**majority class**.
